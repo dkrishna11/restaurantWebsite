@@ -17,14 +17,14 @@ body {
     font-size: 1.5rem;
     background-color: #FFFFFF;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .nav-links {
     display: flex;
     gap: 2rem;
-    justify-content: flex-end;
+    justify-content:flex-start;
 }
 
 .nav-links a {
@@ -59,8 +59,8 @@ body {
     background-color: rgba(201, 98, 90, 0.8);
     position: relative;
     top: 170px;
-    left: 110px;
-    width: 43%;
+    left: 100px;
+    width: 45%;
     height: 35%;
     padding: 8px;
 }
